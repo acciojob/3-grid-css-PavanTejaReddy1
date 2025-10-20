@@ -1,16 +1,15 @@
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
-  gap: 10px; 
-  width: 80%;
-  margin: 50px auto; 
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  width: 1000px; /* fixed width so each column ~333px */
+  margin: 50px auto; /* center grid */
+  gap: 10px;
 }
 
 .grid-item {
   background-color: #f2f2f2;
   border: 1px solid #ccc;
   text-align: center;
-  padding: 40px 0;
   font-size: 20px;
-  font-family: Arial, sans-serif;
+  padding: 40px 0;
 }
